@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ResumeAI Screener</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .contact {
+            margin-top: 40px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy: ResumeAI Screener</h1>
+
+    <p>
+        This Privacy Policy explains how the **ResumeAI Screener** application handles your data when accessing your Google Drive files for resume processing.
+    </p>
+
+    <h2>Data Collection and Storage</h2>
+    <p>
+        The ResumeAI Screener is a **local-only application** designed to run on a private server or development machine.
+    </p>
+    <ul>
+        <li><strong>No User Data is Stored Externally:</strong> This application **DOES NOT** store, transmit, or retain any personally identifiable information (PII) or files (resumes) on any external server, cloud service, or database controlled by the developer (AlignMyCareer).</li>
+        <li><strong>Local Processing Only:</strong> All processing of resume data, creation of vector embeddings, and generation of candidate profiles occur entirely on your local machine or designated private server.</li>
+        <li><strong>Temporary Data Usage:</strong> Your Google Drive authentication tokens are used solely to download the specified files (resumes) and are saved locally (`drive_token.pickle`) only for the purpose of maintaining a session, preventing you from having to sign in repeatedly.</li>
+        <li><strong>No Uploading:</strong> The application does not upload any processed data or files back to Google Drive or any other third-party service.</li>
+    </ul>
+
+    <h2>Google User Data Policy Compliance</h2>
+    <p>
+        The ResumeAI Screener accesses the following data scope from your Google Drive:
+        <ul>
+            <li><code>https://www.googleapis.com/auth/drive.readonly</code>: This permission is used **ONLY** to read and download the resume files you explicitly select for processing.</li>
+        </ul>
+        We adhere strictly to Google's Limited Use Policy. We will never transfer, sell, or use the accessed data for serving advertisements.
+    </p>
+    
+    <h2>Contact Information</h2>
+    <div class="contact">
+        <p>If you have any questions about this privacy policy, please contact the developer/maintainer:</p>
+        <p><strong>Maintainer:</strong> [Your Name/Team Name]</p>
+        <p><strong>Email:</strong> [Your Contact Email Address]</p>
+    </div>
+    
+    <p style="text-align: center; font-size: 0.8em; margin-top: 50px;">Last updated: December 2025</p>
+
+</body>
+</html>
